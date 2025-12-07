@@ -5,3 +5,6 @@ class Alumno {
     this.numero = numero;
   }
 }
+const alumno = new Alumno("Alejandro", "Gomez", "7");
+
+console.log(`Hola ${alumno.nombre}`);
